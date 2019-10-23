@@ -7,6 +7,6 @@ node
   }
   stage("Deploy code to tomcat server")
   {
-    sh 'sudo cp target/*.war /usr/lib/tomcat/webapps/
+    sh 'sudo cp target/*.war /usr/lib/tomcat/webapps/'
   }
 }
